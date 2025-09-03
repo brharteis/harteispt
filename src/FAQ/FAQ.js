@@ -46,7 +46,7 @@ export default function FAQ() {
     },
     {
       question: "Do you accept insurance?",
-      answer: "I currently accepting Blue Cross Blue Shield Insurance."
+      answer: "Blaine is in the process of being credentialed with Blue Cross Blue Shield Insurance."
     },
     {
       question: "Do you provide at home services?",
