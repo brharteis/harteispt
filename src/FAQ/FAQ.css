@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+
+.body {
+  flex: 1;                    
+  background-color: #252020;
+  color: white;
+  padding: 2rem;              
+  font-size: clamp(1rem, 2.5vw, 3rem);
+  line-height: 1.4;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+}
+
+.faq-answer li {
+  display: list-item;      
+  margin: 1rem 0;       
+}
+
+.faq-question {
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: bold;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 4vw;
+  padding-bottom: 5vw;
+
+}
+
+.faq-answer {
+  color: #b3b2b2;
+  text-align: left;
+  padding-bottom: 2.5vw;
+
+}
+
+
+.arrow {
+    color: rgb(187, 56, 56);
+    margin-left: 1rem;
+    padding-bottom: 8%;
+}
+
+.title {
+     color: rgb(187, 56, 56);
+     padding-bottom: 8%;
+}
+
+.questionandarrow {
+  display: flex;
+  white-space: nowrap;
+  display: inline-flex;    
+  align-items: center;      
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .body {
+    padding-left: 1rem;  /* smaller padding on small screens */
+    padding-right: 1rem;
+    
+  }
+
+  .faq-question {
+    font-size: 1rem; /* keep text readable but smaller */
+    padding-bottom: 1.5rem;
+  }
+
+  .arrow {
+    margin-left: 0.5rem;
+  }
+}
+
+

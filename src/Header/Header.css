@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+
+
+
+.Header {
+  background-color: #8d1616;
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  margin-bottom: -40px;
+  padding-bottom:35px;
+}
+
+
+
+.Header nav a {
+  font-size: clamp(0.2rem, 1.8vw, 8rem);
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(211, 191, 191);
+  background-color: rgb(119, 33, 33);
+  text-decoration: none;
+  padding: 0.4em 1em;
+  margin-right: 2vw;
+  border-radius: 30px;
+  
+}
+
+@media (max-width: 600px) {
+  .Header nav a {
+    padding: 0.15em 0.35em;   /* smaller padding */
+    margin-right: 0.5vw;      /* tighter spacing */
+    font-size: 0.42rem;      /* shrink text size */
+  }
+}
+
+.Header nav a:hover {
+  color: rgb(157, 149, 149);
+}
+
+.Header nav a.active {
+  color: rgb(158, 41, 41);
+}
+
+/*.Logo {
+  width: auto;
+  height: 12vw;
+  border-radius: 20px;
+  margin-top: 3%;
+  margin-left: 2%;
+}*/
+
+.Logo {
+  width: 18vw;
+  height: 15vw;
+  
+}
+
+/*.Slogan {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 1000;
+  font-size: clamp(2.5rem, 4vw, 5rem); 
+  color: rgb(225, 215, 215);
+  white-space: nowrap;
+
+} */

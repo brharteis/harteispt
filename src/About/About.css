@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+
+.About {
+  flex: 1;                    
+  background-color: #252020;
+  color: white;
+  padding: 2rem;              
+  text-align: center;
+  font-size: clamp(1rem, 2vw, 3rem);
+  line-height: 1.4;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  
+}
+
+
+
+.title {
+    color: rgb(153, 47, 47);
+    
+}
+
+.text {
+    background-color: #2a2525;
+    border-radius: 2vw 2vw;
+}
+
+
+
+.graduation {
+    width: 80%;
+    height: auto;
+    border-radius: 2vw 2vw;
+}

@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+
+.Footer {
+  background-color: #8d1616;
+  padding: 2%;
+}
+
+.Footer p {
+  color: #1f1d1d;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+}

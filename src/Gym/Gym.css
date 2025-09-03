@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+
+.Gym {
+  flex: 1;                    
+  background-color: #252020;
+  color: white;
+  padding: 2rem;              
+  text-align: center;
+  font-size: clamp(1rem, 2.5vw, 3rem);
+  line-height: 1.4;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.title {
+    color: rgb(153, 47, 47);
+    font-size: 5vw;
+
+}
+
+.gymBody {
+  background-color: #2a2525;
+  border-radius: 2vw 2vw;
+}
+
+.gym1 {
+  width: 90%;
+  height: auto;
+  border-radius: 2vw 2vw;
+}
+
+.gym2 {
+  width: 90%;
+  height: auto;
+  border-radius: 2vw 2vw;
+}
+
+.gym3 {
+  width: 90%;
+  height: auto;
+  border-radius: 2vw 2vw;
+}
+
+.gym4 {
+  width: 90%;
+  height: auto;
+  border-radius: 2vw 2vw;
+}
+
+.gym5 {
+  width: 90%;
+  height: auto;
+  border-radius: 2vw 2vw;
+}
+
+
+
+
+

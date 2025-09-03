@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+
+.Contact {
+  flex: 1;                    
+  background-color: #252020;
+  color: white;
+  padding: 2rem;              
+  text-align: center;
+  font-size: clamp(3rem, 2.5vw, 5rem);
+  line-height: 1.4;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  
+}
+
+.text {
+  background-color: #2a2525;
+  border-radius: 3vw 3vw;
+  font-size: clamp(1.5rem, 5vw, 5rem);
+}
+
+
+.email {
+    color: rgb(187, 56, 56);
+}
+
+.number {
+    color: rgb(187, 56, 56);
+
+}
