@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ChevronDown, ChevronRight } from "lucide-react"; // nice arrow icons
+import { FaChevronDown, FaChevronRight } from 'react-icons/fa';
 import './FAQ.css'
 
 
@@ -12,7 +12,7 @@ const FAQItem = ({ question, answer }) => {
       <div className='questionandarrow' onClick={() => setIsOpen(!isOpen)}>
         <span className="faq-question">{question}</span>
         <span className="arrow">
-        {isOpen ? <ChevronDown size={40}/> : <ChevronRight size={40}/>}
+        {isOpen ? <FaChevronDown size={35}/> : <FaChevronRight size={35}/>}
         </span>
       </div>
 

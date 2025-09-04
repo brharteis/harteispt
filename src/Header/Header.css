@@ -8,7 +8,7 @@
   flex-direction: row;  
   align-items: center;
   margin-bottom: -40px;
-  padding-bottom:35px;
+  padding-bottom: 35px;
 }
 
 
@@ -30,8 +30,8 @@
 @media (max-width: 600px) {
   .Header nav a {
     padding: 0.15em 0.35em;   /* smaller padding */
-    margin-right: 0.5vw;      /* tighter spacing */
-    font-size: 0.42rem;      /* shrink text size */
+    margin-right: 1vw;      /* tighter spacing */
+    font-size: 0.6rem;      /* shrink text size */
   }
 }
 
