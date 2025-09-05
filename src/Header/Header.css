@@ -29,9 +29,9 @@
 
 @media (max-width: 600px) {
   .Header nav a {
-    padding: 0.15em 0.35em;  
+    padding: 0.15em 0.58em;  
     margin-right: 1vw;      
-    font-size: 0.45rem;      
+    font-size: 0.58rem;      
   
   }
 }
