@@ -14,9 +14,10 @@
   padding-right: 10vw;
 }
 
-.title {
+.gymTitle {
     color: rgb(153, 47, 47);
-    font-size: 5vw;
+    font-size: 5.5vw;
+    margin: 0;
 
 }
 

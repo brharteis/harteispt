@@ -4,7 +4,7 @@ import "./Services.css";
 export default function Services() {
     return (
    <main className="Services">
-        <h1 className = "title">Physical Therapy Services</h1>
+        <h1 className = "servicesTitle">Physical Therapy Services</h1>
         <hr />
         <br />
         <div className = "list">
@@ -36,6 +36,19 @@ export default function Services() {
         <br />
         <hr />
         <div className="s4">
+        <h2 className = "subtitle">Specialized Treatments</h2>
+        <li>Dry needling</li>
+        <li>Cupping</li>
+        <li>Manual therapy & joint mobilization</li>
+        <li>Soft tissue mobilization & myofascial release</li>
+        <li>Bloodflow restriction training</li>
+        <li>Balance & proprioception training</li>
+        <li>Vertigo and vestibular rehab</li>
+        <li>Temporomandibular Joint Dysfunction</li>
+        </div>
+        <br />
+        <hr />
+        <div className="s5">
         <h2 className = "subtitle">Performance & Movement Restoration</h2>
         <li>Strength & conditioning integration into rehab</li>
         <li>Speed, agility, and power restoration post-injury</li>
@@ -44,25 +57,12 @@ export default function Services() {
         </div>
         <br />
         <hr />
-        <div className="s5">
+        <div className="s6">
         <h2 className = "subtitle">Preventative & Maintenance Care</h2>
         <li>Injury prevention screenings</li>
         <li>Biomechanical and movement assessments</li>
         <li>Pre-season athletic readiness programs</li>
         <li>Workplace injury prevention</li>
-        </div>
-        <br />
-        <hr />
-        <div className="s6">
-        <h2 className = "subtitle">Specialized Treatments</h2>
-        <li>Manual therapy & joint mobilization</li>
-        <li>Soft tissue mobilization & myofascial release</li>
-        <li>Dry needling</li>
-        <li>Cupping</li>
-        <li>Bloodflow restriction training</li>
-        <li>Balance & proprioception training</li>
-        <li>Vertigo and vestibular rehab</li>
-        <li>Temporomandibular Joint Dysfunction</li>
         </div>
         <br />
         <hr />

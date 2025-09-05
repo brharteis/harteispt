@@ -29,9 +29,10 @@
 
 @media (max-width: 600px) {
   .Header nav a {
-    padding: 0.15em 0.35em;   /* smaller padding */
-    margin-right: 1vw;      /* tighter spacing */
-    font-size: 0.6rem;      /* shrink text size */
+    padding: 0.15em 0.35em;  
+    margin-right: 1vw;      
+    font-size: 0.45rem;      
+  
   }
 }
 
@@ -52,9 +53,17 @@
 }*/
 
 .Logo {
-  width: 18vw;
-  height: 15vw;
+  width: 12vw;
+  height: 10vw;
+  padding-right: 25px;
   
+}
+
+@media (max-width: 600px) {
+  .Logo {
+    padding-right: 0px;
+  
+  }
 }
 
 /*.Slogan {

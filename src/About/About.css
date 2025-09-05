@@ -17,14 +17,16 @@
 
 
 
-.title {
+.aboutTitle {
     color: rgb(153, 47, 47);
+    margin: 0;
     
 }
 
-.text {
+.aboutText {
     background-color: #2a2525;
     border-radius: 2vw 2vw;
+    
 }
 
 

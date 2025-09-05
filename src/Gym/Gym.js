@@ -11,16 +11,13 @@ import gym5 from '../Images/highstreet5.jpg'
 export default function Gym() {
     return (
     <main className="Gym">
-        <p className="title">Highstreet Bodyshop</p>
+        <p className="gymTitle">High Street Body shop</p>
         <hr />
         <br />
         <p className="gymBody">Most physical therapy facilities are limited in their capabilities because they don’t have the space or the proper equipment to take your recovery and performance to the next level. At High Street Body Shop, that’s not the case. Our 18,000-square-foot facility is equipped with the best machines in the industry, including Prime Fitness, Hammer Strength, and Life Fitness, giving you access to professional tools for strength training, functional movement, and conditioning.</p>
         <p className="gymBody">This state-of-the-art environment allows us to bridge the gap between rehabilitation and high-performance training. Whether you’re recovering from an injury, building strength, or striving for peak athletic performance, our space and equipment ensure you have everything you need to succeed.</p>
         <br />
         <img src={gym1} alt="Gym Photo" className = "gym1"/>
-        <br />
-        <br />
-        <img src={gym2} alt="Gym Photo" className = "gym2"/>
         <br />
         <br />
         <img src={gym3} alt="Gym Photo" className = "gym3"/>
